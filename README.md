@@ -25,10 +25,8 @@
        - 트러플을 이용한 스마트 컨트랙트 배포
        - 가나슈를 이용한 블록체인 네트워크 구축
        - IoT 서비스 개발
-       
-       ![정보융합공학과 이미지](https://github.com/wo-ody/Capstone-2022-1-18/issues/1#issue-1407946442)
+![그림1](https://user-images.githubusercontent.com/45092652/195631769-88094db7-bba3-44c8-b36f-4295ab04724e.png)
 
-       
 
 ### 3. 구성도
 프로젝트 결과물의 개괄적인 동작을 파악할 수 있는 이미지와 글을 작성하세요.
