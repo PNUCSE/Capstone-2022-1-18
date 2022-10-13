@@ -48,6 +48,10 @@
 ![그림3](https://user-images.githubusercontent.com/45092652/195632159-66acb2e2-d4eb-41d2-8f04-02b584df9a38.png)
 ![그림4](https://user-images.githubusercontent.com/45092652/195632162-83ff234f-6485-4f12-8d0b-cc724cc8487b.png)
 
-#4. 소개 및 시연 영상
+# 4. 소개 및 시연 영상
 
-#5. 사용법
+# 5. 사용법
+1. ganache로 가상의 이더리움 네트워크 환경생성
+2. truffle환경에서 SmartContract을 compile과 migrate
+3. 생성된 abi와 contract address를 코드에 작성
+4. MetaMask 계정생성
