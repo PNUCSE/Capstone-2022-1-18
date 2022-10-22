@@ -49,6 +49,7 @@
 ![그림4](https://user-images.githubusercontent.com/45092652/195632162-83ff234f-6485-4f12-8d0b-cc724cc8487b.png)
 
 # 4. 소개 및 시연 영상
+https://www.youtube.com/watch?v=HCqFjTzNGpY&list=LL&index=2&t=31s
 
 # 5. 사용법
 1. ganache로 가상의 이더리움 네트워크 환경생성
