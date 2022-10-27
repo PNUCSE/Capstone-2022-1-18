@@ -352,14 +352,14 @@
 			//var a = await Auction_sol.methods.bidOnAuction(parseInt(auctionId),bidform.txt2.value).send({from:userAccount[0]});
 			console.log('경매 참여');
 			var priceUpdate = await Auction_sol.methods.getWinningPrice(auction.auctionId).call();
-			document.getElementById("balanceOfu=User").innerHTML = "현재 잔고: "+ await Item_sol.methods.balanceOf(userAccount[0],0).call()+"MMT";
+			document.getElementById("balanceOfUser").innerHTML = "현재 잔고: "+ await Item_sol.methods.balanceOf(userAccount[0],0).call()+"MMT";
 
 			document.getElementById("bid_start_price").innerHTML = "입찰 가격: "+ (priceUpdate + ' MMT');
 			alert('입찰에 참여하셨습니다. ');
 S
 		}catch(err){
 			console.log('경매 참여 실패',err);
-			alert("입찰에 실패했습니다.");
+			//alert("입찰에 실패했습니다.");
 			return
 		}finally{
 			closeLoadingWithMask()

@@ -1325,7 +1325,7 @@ async function Modal_exchange(){
       try{
          LoadingWithMask();
         
-         var eth = input.value * (10**18);
+         var eth = document.getElementById("inputEtoM").value * (10**18);
          console.log("ETH->MMT 환전시작 ", eth);
          console.log("governance 잔고: ",await Item_sol.methods.balanceOf(governance,0).call())
          await Item_sol.methods.ETHtoMMT(userAccount[0]).send({from: userAccount[0], value:eth});

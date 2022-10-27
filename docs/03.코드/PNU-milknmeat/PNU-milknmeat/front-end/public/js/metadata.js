@@ -187,7 +187,7 @@ async function mkdir(_dir, ipfs){
         }
 
         async function initDir(_CIDArr, ipfs){
-            await ipfs.files.rm(root, {recursive: true});
+            //await ipfs.files.rm(root, {recursive: true});
             await mkdir(root, ipfs, {parent:true});
             await mkdir(dir, ipfs, {parent: true});
             await mkdir(dirAuc, ipfs, {parent:true});

@@ -25,9 +25,9 @@ async function test(){
 
 
 async function startApp() {
-	var ItemAddress = "0x86D7729237c2b2FEe0e793Bb80Cdd2809DcEAbdD";
-	var SupplyAddress = "0xaeD529A6bbDcF4775862D16fA0F4FA30ec083DcA";
-	var AuctionAddress = "0xFC4bD602351879812CF238c751433cE5EF7cd04b";
+	var ItemAddress = "0x07D0239EDA2084953922DB4285727Cc897567350";
+	var SupplyAddress = "0xC22Ad83d0c13E9bF99da5C42029d9BB87c15b06b";
+	var AuctionAddress = "0x69962491ECE70b6617Bf7e7C7Cdc5E62d34eC96B";
 	governance = AuctionAddress;
 		
 	Auction_sol = await new web3.eth.Contract(AuctionABI, AuctionAddress);
